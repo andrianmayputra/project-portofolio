@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #0f0f0f;
+}
+
+header {
+  background-color: #101010;
+  color: #fff;
+  padding: 0 0;
+  position: 100px fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  margin: 20px 0;
+}
+
+form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #070707;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: 100px fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#Profil {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#Profil h2 {
+  margin-bottom: 20px;
+}
+
+.Profil img {
+  width: 400px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  border-radius: 80%; /* Untuk membuat gambar lingkaran */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada gambar */
+}
+
+#contact {
+  margin-bottom: 30px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Jika Anda ingin memberi gaya khusus untuk periode pengalaman */
+#contact p:nth-child() {
+  font-weight: bold;
+}
+
+#about {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6; /* Menentukan jarak antar baris */
+  margin-bottom: 10px;
+  margin-left: 20px; /* Memberikan indentasi pada paragraf */
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon img {
+  width: 30px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+  height: 30px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+}
+
+.social-name p {
+  margin-left: 10px; /* Jarak antara ikon dan teks nama */
+}
